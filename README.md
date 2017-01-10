@@ -2,15 +2,15 @@
 
 This notebook details the approaches and the conclusions of the analysis of the final presidential debate using the Twitter Streaming API. This work was completed for <a href = 'https://prismoji.com/'>Prismoji</a> with the aim of understanding how twitter users conveyed sentiment for the debate with emojis. 
 
-<b>This notebook covers:</b>
-1. Data Cleaning
-2. Visualizations 
-3. Conclusions
+<b>This notebook covers:</b><br>
+1. Data Cleaning<br>
+2. Visualizations <br>
+3. Conclusions<br>
 
 The scripts for acquiring the data are attached in the github page.
 
-<b>Our approach was two-fold:</b>
-1. Use tweet volume to understand what users found important. <u>We made the assumption that higher volume of tweets correlate with user interest.</u>
+<b>Our approach was two-fold:</b><br>
+1. Use tweet volume to understand what users found important. <u>We made the assumption that higher volume of tweets correlate with user interest.</u><br>
 2. We also counted the frequency of emojis used relating to each candidate and the frequency used through time, also assuming that the higher the usage the more important it is.
 
 
