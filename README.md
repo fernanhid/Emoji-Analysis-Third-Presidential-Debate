@@ -1,14 +1,25 @@
-## Emoji Analysis: Third Presidential Debate
-##### Using NLP to understand what words and emojis use for each candidate
+# Emoji and NLP Analysis of the Final Presidential Debate
 
-<br/>
-***Objective:*** Understand how twitter users communicate using emojis and how it relates to how they feel about each candidate.
-<br/>
-<br/>
-***Tools:*** Python (Pandas, Numpy), Selenium WebDriver, Beautiful Soup, Seaborn
-<br/>
-<br/>
-***Methodology:*** Obtained 1 Million Tweets from the Twitter Streaming API. Removed the re-tweets and identified which emojis were used per tweet. Tracked emoji usage over time and cross examined it with what each candidate said. 
-<br/>
-<br/>
-***Conclusions:*** Overall, Donald Trump gets much more attention, whether it's positive or negative. The biggest spikes in the number of tweets are when he says something or when Hillary Clinton reacts to something he says. In the case of the emojis, the american flag emoji and the laughing crying emoji where the top two most used for both candidates. What is interesting is that for Trump the third is the thinking emoji and for Clinton is the clapping hands. During the debate many people thought about the consequences of what Trump said while they celebrated Hillary for her responses. 
+This notebook details the approaches and the conclusions of the analysis of the final presidential debate using the Twitter Streaming API. This work was completed for <a href = 'https://prismoji.com/'>Prismoji</a> with the aim of understanding how twitter users conveyed sentiment for the debate with emojis. 
+
+<b>This notebook covers:</b>
+1. Data Cleaning
+2. Visualizations 
+3. Conclusions
+
+The scripts for acquiring the data are attached in the github page.
+
+<b>Our approach was two-fold:</b>
+1. Use tweet volume to understand what users found important. <u>We made the assumption that higher volume of tweets correlate with user interest.</u>
+2. We also counted the frequency of emojis used relating to each candidate and the frequency used through time, also assuming that the higher the usage the more important it is.
+
+
+<b> Our Conclusions:</b>
+1. Donald Had a much higher volume of tweets overall, relating to both negative and position reactions to him. This also carried over to tweets, which he also had a much higher volume of. 
+2. Certain emojis are highly correlated with certain topics. For example: the clapping hands emoji is very correlated with women's right issues and Hillary in general. In a clearere example, the train emoji is used when Trump is seen to be doing well.
+3. Aside from english, the top 4 languages are comprised of Spanish, Portuguese, and French. This might be due with a certain community's involvement with this election or areas where twitter is popular.
+
+
+<u><b>I've also created an interactive plot using plot.ly which shows how different topics influenced twitter usage that you can check out <a href = 'https://plot.ly/~fernanhid/3/'>HERE<a>.<b></u>
+
+### Aside from that, I hope you enjoy this notebook!
